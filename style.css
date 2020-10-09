@@ -1,0 +1,233 @@
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 0;
+    font-size: 15px;
+}
+
+.First-div{
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+
+}
+
+.First-div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: silver;
+
+}
+
+.First-div h2{
+    color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+}
+
+.First-div h4{
+    text-align: center;
+}
+.First-div p{
+    text-align: justify;
+}
+
+.First-div button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255,0,0,0.7);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.First-div button:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.First-div button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Second-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Second-div a{
+    display: inline-block;
+    margin: auto;
+    margin-top: 10%;
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity: 20%;
+}
+
+.Second-div a:hover{
+    opacity: 100%;
+}
+
+.Second-div a svg{
+   font-size: 25px;
+}
+
+.Third-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 450px;
+    height: 850px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Third-title{
+    text-align: center;
+    padding-top: 25px;
+}
+.Third-div div{
+    display: block;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 430px;
+    
+}
+
+.Third-div div img{
+    float: left;
+    width: 100px;
+    height: 150px;
+}
+
+.Third-div div h4{
+    text-align: center;
+}
+.Third-div div p{
+    text-align: justify;
+    padding-left: 110px;
+}
+
+
+@media screen and (min-width: 320px){
+    .First-div{
+        width: 300px;
+        height: 400px;
+    
+    }
+    
+    .First-div img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .First-div button{
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
+    }
+    .First-div button a {
+        font-size: 15px;
+    }
+    .Second-div{
+        width: 350px;
+        height: 100px;
+    }
+
+    .Second-div a svg{
+       font-size: 20px;
+    }
+    .Third-div{
+        width: 350px;
+        height: 850px;
+        margin-top: -2%;
+    }
+    
+    .Third-title{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .Third-div div{
+        display: block;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 330px;
+    }
+    
+    .Third-div div img{
+        float: left;
+        width: 75px;
+        height: 100px;
+    }
+    .Third-div div p{
+        padding-left: 90px;
+    }
+}    
+
+
+@media screen and (min-width: 768px){
+    .First-div{
+        width: 400px;
+        height: 400px;
+    
+    }
+    
+    .First-div button{
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
+    }
+    .First-div button{
+        margin-top: 40px;
+    }
+
+    .Second-div{
+        width: 450px;
+        height: 150px;
+    }
+
+    .Third-div{
+        width: 450px;
+        height: 850px;
+        margin-top: 2%;
+    }
+
+    .Third-div div{
+        margin-left: 20px;
+    }
+
+    .Third-div div p{
+        padding-left: 100px;
+    }
+
+}
